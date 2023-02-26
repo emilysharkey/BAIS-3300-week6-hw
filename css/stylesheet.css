@@ -1,0 +1,65 @@
+.wrapper{
+    background-color: rgb(202, 212, 213);
+
+}
+
+header {
+    background-color: lightsteelblue;
+    padding: 15px;
+    text-align: center;
+    color: rgb(7, 8, 8);
+}
+
+nav {
+    background-color: rgb(143, 163, 184);
+    margin: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* unvisited link */
+a:link {
+    color: #080a08;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #535753;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #CED6CE;
+    background-color: hotpink;
+    padding: 2px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 110, 255);
+  }
+
+main {
+    background-color:rgb(202, 212, 213);
+}
+
+footer {
+    background-color: lightsteelblue;
+    padding: 25px;
+    text-align: center;
+    color:rgb(9, 10, 10);
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
